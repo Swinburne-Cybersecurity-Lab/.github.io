@@ -61,7 +61,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
+  enable: true    #是否开启Gitalk评论
   clientID: 601fb55f638435349c01                            #生成的clientID
   clientSecret: 1e299bdf45e710a119a878b5871cef576d5b53e0    #生成的clientSecret
   repo: https://swinburne-cybersecurity-lab.github.io/   #仓库名称
