@@ -61,7 +61,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: 601fb55f638435349c01                            #生成的clientID
   clientSecret: 1e299bdf45e710a119a878b5871cef576d5b53e0    #生成的clientSecret
   repo: https://swinburne-cybersecurity-lab.github.io/   #仓库名称
@@ -74,10 +74,10 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 
+# ba_track_id: 
 
 # Google Analytics
-ga_track_id: ''            # Format: UA-xxxxxx-xx
+# ga_track_id: ''            # Format: UA-xxxxxx-xx
 #ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
