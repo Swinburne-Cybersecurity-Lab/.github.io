@@ -1,0 +1,109 @@
+# Site settings
+title: Nastul's Blog
+SEOTitle: Nastul Lin Li | Nastul's Blog
+header-img: img/home-bg.jpg
+email: linli@swin.edu.au
+description: "We coding design and change the world."
+keyword: "Nastul, Nastul's Blog, LinLi, LiLin, 李霖, Python,Machine Leaning, Apple, Alienware"
+url: "http://nastul.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com//NasTul/Nastul.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "we coding design and change the world."
+sidebar-avatar: /img/about-nastul-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+zhihu_username:     Nastul
+github_username:    nastul
+facebook_username:  nastul.lee
+#jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 5d466a42d28121c6c1d7                            #生成的clientID
+  clientSecret: 54f4f849218e8ea98f0ffca9a8e92dd3ae937c3b    #生成的clientSecret
+  repo: nastul.github.io    #仓库名称
+  owner: nastul    #github用户名
+  admin: nastul
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-134153069-1'            # Format: UA-xxxxxx-xx
+#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0             # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "justzht",
+        href: "http://www.justzht.com/"
+    },
+    {
+        title: "Shuai",
+        href: "http://shuaix.cn"
+    },
+]
