@@ -2,7 +2,7 @@
 layout:     post
 title:      "CyberSecurity Workshop"
 subtitle:   " \"CyberSecurity\""
-date:       2022-04-06 14:47:00
+date:       2022-04-20 14:47:00
 author:     "Nastul"
 header-img: "img/data-featured-image-1.jpg"
 catalog: true

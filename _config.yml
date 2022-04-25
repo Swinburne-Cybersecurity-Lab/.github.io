@@ -1,27 +1,27 @@
 # Site settings
-title: Nastul's Blog
-SEOTitle: Nastul Lin Li | Nastul's Blog
+title: Swinburne-Cybersecurity-Lab's Blog
+SEOTitle: Swinburne | Cybersecurity-Lab
 header-img: img/home-bg.jpg
-email: linli@swin.edu.au
+email: 
 description: "We coding design and change the world."
-keyword: "Nastul, Nastul's Blog, LinLi, LiLin, 李霖, Python,Machine Leaning, Apple, Alienware"
-url: "http://nastul.github.io"          # your host, for absolute URL
+keyword: "swinburne, cybersecurity, lab"
+url: "#"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com//NasTul/Nastul.github.io.git" # you code repository
+github_repo: "https://github.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "we coding design and change the world."
-sidebar-avatar: /img/about-nastul-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/c62118211cf7422e8534e259f2f92e5e.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     Nastul
-github_username:    nastul
-facebook_username:  nastul.lee
+# zhihu_username:     Nastul
+# github_username:    nastul
+# facebook_username:  nastul.lee
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
@@ -99,11 +99,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "justzht",
-        href: "http://www.justzht.com/"
     },
-    {
-        title: "Shuai",
-        href: "http://shuaix.cn"
-    },
+  
 ]
