@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 5d466a42d28121c6c1d7                            #生成的clientID
-  clientSecret: 54f4f849218e8ea98f0ffca9a8e92dd3ae937c3b    #生成的clientSecret
+  clientID: 601fb55f638435349c01                            #生成的clientID
+  clientSecret: 1e299bdf45e710a119a878b5871cef576d5b53e0    #生成的clientSecret
   repo: https://swinburne-cybersecurity-lab.github.io/   #仓库名称
   owner: nastul    #github用户名
   admin: nastul
