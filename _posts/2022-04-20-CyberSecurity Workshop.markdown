@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "CyberSecurity Workshop"
+title:      "CyberSecurity Workshop Part 1"
 subtitle:   " \"CyberSecurity\""
 date:       2022-04-20 14:47:00
 author:     "Nastul"
 header-img: "img/data-featured-image-1.jpg"
 catalog: true
 tags:
-    - InformationSecurity  
+    - CyberSecurity Workshop 
 ---
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/Diagrams/master/Picture1.png)
