@@ -17,6 +17,7 @@ tags:
 Our work lives, personal lives, and finances are all linked to the world of the internet, mobile computing, and electronic media. Cybersecurity is the protection of systems, networks, and programs, and in this workshop you will learn how to test for some common vulnerabilities to practically see how a hacker might break into a website.
 
 ___
+
 ## Part 1 Introduction 
 Now, we live in a digital world. Our work lives, personal lives, and finances have all linked to the world of the internet, mobile computing, and electronic media. Unfortunately, this widespread phenomenon makes us more vulnerable than ever to malicious attacks, invasions of privacy, fraud, and others. That’s why cybersecurity is such a vital part of a secure and well-ordered digital world. Cybersecurity keeps us safe from hackers, cyber criminals, and other agents of fraud.
 
@@ -75,6 +76,7 @@ Let's go to the next part, Web Security. Let's use it as an entry point to see h
 **WARNING:** <font  color=red> This program is for educational purposes only. If you attempt these techniques without authorization, you are very likely to get caught. If you are caught engaging in unauthorized hacking, most companies will fire you. Claiming that you were doing security research will not work as that is the first thing that all hackers claim. </font>.
 
 ___
+
 ## Part 2 Practices
 
 ##### What is WebGoat?
@@ -208,7 +210,10 @@ So we can go back to the Elements tab and change the name of the field. Just lik
 Then we submit our form, and we can successfully change our password. Even if we don't know the answer. 
 
 ___
-##### (Optional) JWT tokens 
+
+## Part 3 Optional Task 
+
+##### JWT tokens 
 
 JSON Web Token is what JWT stands for, it defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed by using a secret or a public/private key pair using RSA.
 
@@ -241,20 +246,19 @@ Then replace the original JWT token with the generated JWT String.
 Remember to add the last dot. 
 Like: eyJhbGciOiJub25lIn0.eyJpYXQiOjE2NDgxODU5NzIsImFkbWluIjoidHJ1ZSIsInVzZXIiOiJUb20ifQ.
 If you are using a Firefox browser, then you can modify the token information in the cookie field directly through the Edit and Resend buttons.
-However, in chrome you can't do this directly. 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture26.png)
-You can do this by right clicking on the network activity and chose the way you want to, for example if you want to send a request using windows terminal, you can choose PowerShell. Then edit the corresponding cookie information in a text editor. Finally, type in the terminal.
+
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/20220426110141.png) 
+
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/20220426111207.png) 
+
+Then send the message.
+
+However, in chrome you can't do this directly. You can try to think of other solutions.
 
 ___
-## (Optional) Tasks 
-
-Now is your turn to try it.
-
-**A1 Path traversal** Tab 2, 3.
+## Part 4 Optional Challenge Tasks 
 
 **A2 JWT token** Tab 10. **password reset** Tab 4, 6.
-
-**Client side** HTML tempering. 
 
 **Challenges** 
 
