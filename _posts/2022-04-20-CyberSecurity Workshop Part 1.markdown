@@ -256,7 +256,7 @@ Then send the message.
 However, in chrome you can't do this directly. You can try to think of other solutions.
 
 ___
-## Part 4 Optional Challenge Tasks 
+## Part 4 Optional Challenge 
 
 **A2 JWT token** Tab 10. **password reset** Tab 4, 6.
 
