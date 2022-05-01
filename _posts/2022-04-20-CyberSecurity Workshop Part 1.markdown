@@ -258,6 +258,8 @@ However, in chrome you can't do this directly. You can try to think of other sol
 ___
 ## Part 4 Optional Challenge 
 
+**A1 Path traversal** Tab 2, 3.
+
 **A2 JWT token** Tab 10. **password reset** Tab 4, 6.
 
 **Challenges** 
