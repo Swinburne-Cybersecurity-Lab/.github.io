@@ -7,7 +7,6 @@ author:     "Nastul"
 header-img: "img/data-featured-image-1.jpg"
 catalog: true
 tags:
-    - CyberSecurity Workshop 
 ---
 
 
@@ -130,7 +129,7 @@ If you are using Chrome, you can right click on the blank part of the page. Then
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture10.png)
 
-**Elements Tab:** the HTML and CSS source code.
+**Elements(Inspector) Tab :** the HTML and CSS source code.
 
 **Console tab:** We can see anything, which a loaded JavaScript file may have printed out to it. It is also possible for us to run our own line of JavaScript code.
 
