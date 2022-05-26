@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "CyberSecurity Workshop Part 1"
-subtitle:   " \"CyberSecurity\""
+title:      "CyberSecurity Workshop"
+subtitle:   " \"Swinburne-Cybersecurity-Lab\""
 date:       2022-04-20 14:47:00
 author:     "Nastul"
 header-img: "img/data-featured-image-1.jpg"
@@ -10,7 +10,6 @@ tags:
     - CyberSecurity Workshop 
 ---
 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/Diagrams/master/Picture1.png)
 
 ## Workshop Summary
 
