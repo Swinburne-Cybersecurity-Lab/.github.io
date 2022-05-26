@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "CyberSecurity Workshop"
-subtitle:   " \"Swinburne-Cybersecurity-Lab\""
+title:      "Cybersecurity Workshop"
+subtitle:   
 date:       2022-04-20 14:47:00
 author:     "Nastul"
 header-img: "img/data-featured-image-1.jpg"
