@@ -12,9 +12,11 @@ tags:
 
 ## Workshop Summary
 
-Our work lives, personal lives, and finances are all linked to the world of the internet, mobile computing, and electronic media. Cybersecurity is the protection of systems, networks, and programs, and in this workshop you will learn how to test for some common vulnerabilities to practically see how a hacker might break into a website.
+Our lives are closely linked to the world of the internet, mobile computing, and electronic media. Cybersecurity, the protection of systems, networks, and programs, is becoming a critical aspect of our every day lives. In this hands-on workshop you will discover how web-based vulnerabilities work, different types of cyber attacks and the impact they can have.
+
 
 ___
+
 
 ## Part 1 Introduction 
 Now, we live in a digital world. Our work lives, personal lives, and finances have all linked to the world of the internet, mobile computing, and electronic media. Unfortunately, this widespread phenomenon makes us more vulnerable than ever to malicious attacks, invasions of privacy, fraud, and others. That’s why cybersecurity is such a vital part of a secure and well-ordered digital world. Cybersecurity keeps us safe from hackers, cyber criminals, and other agents of fraud.
@@ -22,7 +24,9 @@ Now, we live in a digital world. Our work lives, personal lives, and finances ha
 A recent example is, for some reasons, some places are not convenient to access steam. A very famous game platform. Those hackers have downloaded and cracked all the games on steam into their web. This could be a disaster for game companies and players.
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture4.png)
+
 ___
+
 ##### What is Cybersecurity?
 The definition of Cybersecurity or IT security is the protection of systems, networks, and programs. The theft of or damage would be to their hardware, software, or electronic data. The cyberattacks could access, change, destroy the data.
 
@@ -144,7 +148,10 @@ You can try any possible answer in the input box. Then click Go and submit your 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture12.png)
 
 Then you will see a name called attack2 appear in the window. Although there are many other activities, attack2 appears when we press the button. We click on it and more information will appear. Like request url, method. Here the method is POST. We can use it to answer the first question. When we click on payload, we can see which data is sent by that request. 
+
 ___
+
+
 ##### SQL Injection 
 First let's learn some information about SQL.
 
@@ -185,7 +192,11 @@ Then click Get account info, you will get all user information.
 Let's use the input data to complete the SQL statement:
 `SELECT * FROM user_data WHERE login_count = 123 AND userid = 1 or 1=1;`
 It is easy to see that the last input of **‘or 1=1’** always works. We can also replace **‘1=1’** with true.  That's how Numeric SQL injection works.
+
+
 ___
+
+
 ##### Authentication Bypasses 
 Authentication is the process of verifying whether someone or something is in fact who or what it is declared to be. This process prevents anyone or anything outside of a system they are not authorised to be in.
 
@@ -254,6 +265,7 @@ Then send the message.
 However, in chrome you can't do this directly. You can try to think of other solutions.
 
 ___
+
 ## Part 4 Optional Challenge 
 
 **A1 Path traversal** Tab 2, 3.
