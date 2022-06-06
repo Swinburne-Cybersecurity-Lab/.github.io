@@ -161,7 +161,7 @@ A relational database is a type of database that stores and provides access to d
 
 Motivation behind a SQL Injection attack is to gain access to data from a database, that the hacker is not authorised to see. With this attack they could gain personal information on people, gain passwords, usernames, credit details. Client list that companies have and sell it on the dark web for a certain value of money.
 
-Here we have a sample database **(A1 subtask 2)**. A employees table. And we have userid, username, etc.
+Here we have a sample database **(A1 SQL Injection (intro) subtask 2)**. A employees table. And we have userid, username, etc.
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture13.png)
 
@@ -179,7 +179,7 @@ In March 2022, A security vulnerability in e-learning platform Moodle could allo
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture14.png)
 
-Let's look at an example (A1 subtask 10).
+Let's look at an example **(A1 SQL Injection (intro) subtask 10)**.
 This is Numeric SQL injection. 
 Suppose the following is a query statement from the server:
 `"SELECT * FROM user_data WHERE login_count = " + Login_Count + " AND userid = "  + User_ID;`
@@ -205,7 +205,7 @@ Motivation for hackers to bypass authentication systems. Is to gain access to sy
 
 It happens in many ways, but usually take advantage of some flaw in the configuration or logic. Tampering to achieve the right conditions. 
 
-Let’s try 2FA Password Reset (A2 Authentication Bypasses)
+Let’s try 2FA Password Reset **(A2 Authentication Bypasses subtask 2)**
 
 When you forget your password, some applications often help you reset it by answering some questions to confirm your identity. As shown in the figure below.
 
@@ -240,7 +240,7 @@ We can use some decoding tools to decode the JWT token like online tools  https:
 Then we can get the following decoded information:
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture21.png)
 
-Let’s try JWT signing.
+Let’s try JWT signing **(A2 JWT tokens subtask 5)**.
 We can choose the role to vote for here. But there is no admin. 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture22.png)
 Let's try clicking on the trash can button. Only admin user can reset the votes. 
