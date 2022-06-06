@@ -161,7 +161,7 @@ A relational database is a type of database that stores and provides access to d
 
 Motivation behind a SQL Injection attack is to gain access to data from a database, that the hacker is not authorised to see. With this attack they could gain personal information on people, gain passwords, usernames, credit details. Client list that companies have and sell it on the dark web for a certain value of money.
 
-Here we have a sample database. A employees table. And we have userid, username, etc.
+Here we have a sample database **(A1 subtask 2)**. A employees table. And we have userid, username, etc.
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture13.png)
 
