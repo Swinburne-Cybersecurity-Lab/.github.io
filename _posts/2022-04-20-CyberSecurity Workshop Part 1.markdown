@@ -119,7 +119,7 @@ If you are using Chrome, you can right click on the blank part of the page. Then
 
 **Network tab:** Logs all network activity in the Network.
 
-The Quiz: 
+The Quiz **(General HTTP Basics subtask 3)**: 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture11.png)
 You can try any possible answer in the input box. Then click Go and submit your answer. At this time, the browser will send a request to the server. (Remember to open Developer Tools before you click the button to send the request so that it keeps track of your network activity.)
 
