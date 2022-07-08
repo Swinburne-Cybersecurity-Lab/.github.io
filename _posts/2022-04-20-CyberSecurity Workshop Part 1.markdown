@@ -109,7 +109,7 @@ Let's follow the page and explore.
 
 If you are using Firefox, you can right click on the blank part of the page. Then select inspect to access the developer tools. 
 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture10.png)
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/develop_tools.png)
 
 **Inspector(Elements) Tab :** the HTML and CSS source code.
 
@@ -118,7 +118,7 @@ If you are using Firefox, you can right click on the blank part of the page. The
 **Network tab:** Logs all network activity in the Network.
 
 The Quiz **(General HTTP Basics subtask 3)**: 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/develop_tools.png)
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture11.png)
 You can try any possible answer in the input box. Then click Go and submit your answer. At this time, the browser will send a request to the server. (Remember to open Developer Tools before you click the button to send the request so that it keeps track of your network activity.)
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/httpsub3.png)
@@ -188,9 +188,9 @@ When you forget your password, some applications often help you reset it by answ
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture16.png)
 
 When we enter some random data and click submit. In the sent packet, we can see that it has these fields. 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture17.png)
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/ausub2.png)
 We can guess that these fields are used by the server to determine if they are consistent with the stored answers. 
-So we can go back to the Elements tab and change the name of the field. Just like the one shown in the figure below. 
+So we can go back to the Inspector tab and change the name of the field. Just like the one shown in the figure below. 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture18.png)
 Then we submit our form, and we can successfully change our password. Even if we don't know the answer. 
 
@@ -222,7 +222,7 @@ We can choose the role to vote for here. But there is no admin.
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture22.png)
 Let's try clicking on the trash can button. Only admin user can reset the votes. 
 Then check the developer tools, network tab to see what's happening.
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture23.png)
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/jwtsub5.png)
 
 We can see that we have sent our JWT token to the server, as shown in the red line above. Let's decode this data. 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture24.png)
