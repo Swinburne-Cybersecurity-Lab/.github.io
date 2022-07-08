@@ -107,25 +107,23 @@ HTTP is also called Hypertext Transfer Protocol. Officially, it is an applicatio
 
 Let's follow the page and explore.
 
-If you are using Chrome, you can right click on the blank part of the page. Then select inspect to access the developer tools. 
+If you are using Firefox, you can right click on the blank part of the page. Then select inspect to access the developer tools. 
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture10.png)
 
-**Elements(Inspector) Tab :** the HTML and CSS source code.
+**Inspector(Elements) Tab :** the HTML and CSS source code.
 
 **Console tab:** We can see anything, which a loaded JavaScript file may have printed out to it. It is also possible for us to run our own line of JavaScript code.
-
-**Sources tab:** all the HTML, CSS and JavaScript files that are used.
 
 **Network tab:** Logs all network activity in the Network.
 
 The Quiz **(General HTTP Basics subtask 3)**: 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture11.png)
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/develop_tools.png)
 You can try any possible answer in the input box. Then click Go and submit your answer. At this time, the browser will send a request to the server. (Remember to open Developer Tools before you click the button to send the request so that it keeps track of your network activity.)
 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture12.png)
+![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/httpsub3.png)
 
-Then you will see a name called attack2 appear in the window. Although there are many other activities, attack2 appears when we press the button. We click on it and more information will appear. Like request url, method. Here the method is POST. We can use it to answer the first question. When we click on payload, we can see which data is sent by that request. 
+Then you will see a name called attack2 appear in the window. Although there are many other activities, attack2 appears when we press the button. We click on it and more information will appear. Like request url, method. Here the method is POST. We can use it to answer the first question. When we click on request, we can see which data is sent by that request. 
 
 ___
 
