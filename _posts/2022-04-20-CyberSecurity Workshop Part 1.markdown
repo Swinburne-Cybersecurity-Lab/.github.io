@@ -75,7 +75,7 @@ Let's go to the next part, Web Security. Let's use it as an entry point to see h
 
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Warning.jpg)
-**WARNING:** <font  color=red> This program is for educational purposes only. If you attempt these techniques without authorization, you are very likely to get caught. If you are caught engaging in unauthorized hacking, most companies will fire you. Claiming that you were doing security research will not work as that is the first thing that all hackers claim. </font>.
+**WARNING:** <font  color=red> This program is for educational purposes only. If you attempt these techniques without authorization, you are very likely to get caught. If you are caught engaging in unauthorized hacking, most companies will fire you. Claiming that you were doing security research will not work as that is the first thing that all hackers claim. </font>
 
 ___
 
