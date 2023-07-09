@@ -2,7 +2,7 @@
 layout:     post
 title:      "Cybersecurity Workshop"
 subtitle:   
-date:       2022-04-20 14:47:00
+date:       2023-07-10 14:47:00
 author:     "Nastul"
 header-img: "img/data-featured-image-1.jpg"
 catalog: true
@@ -90,13 +90,13 @@ For us this is a good application to understand cybersecurity. We were able to p
 
 
 ##### Open WebGoat
-Now you can type http://10.0.0.4:8080/WebGoat in your browser. Or open WebGoat via the Favorites tab.
+Now you can type http://10.0.0.x:8080/WebGoat in your browser. Or open WebGoat via the Favorites tab.
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture8.png)
 
 Then login with the account you just registered. You will see the next picture. 
 
-![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture9.png)
+![RUNOOB](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webgoathome_20230710000110.png)
 
 ___
 
@@ -137,7 +137,7 @@ A relational database is a type of database that stores and provides access to d
 
 Motivation behind a SQL Injection attack is to gain access to data from a database, that the hacker is not authorised to see. With this attack they could gain personal information on people, gain passwords, usernames, credit details. Client list that companies have and sell it on the dark web for a certain value of money.
 
-Here we have a sample database **(A1 SQL Injection (intro) subtask 2)**. A employees table. And we have userid, username, etc.
+Here we have a sample database **(A3 SQL Injection (intro) subtask 2)**. A employees table. And we have userid, username, etc.
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture13.png)
 
@@ -155,7 +155,7 @@ In March 2022, A security vulnerability in e-learning platform Moodle could allo
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture14.png)
 
-Let's look at an example **(A1 SQL Injection (intro) subtask 10)**.
+Let's look at an example **(A3 SQL Injection (intro) subtask 10)**.
 This is Numeric SQL injection. 
 Suppose the following is a query statement from the server:
 `"SELECT * FROM user_data WHERE login_count = " + Login_Count + " AND userid = "  + User_ID;`
@@ -181,7 +181,7 @@ Motivation for hackers to bypass authentication systems. Is to gain access to sy
 
 It happens in many ways, but usually take advantage of some flaw in the configuration or logic. Tampering to achieve the right conditions. 
 
-Let’s try 2FA Password Reset **(A2 Authentication Bypasses subtask 2)**
+Let’s try 2FA Password Reset **(A7 Authentication Bypasses subtask 2)**
 
 When you forget your password, some applications often help you reset it by answering some questions to confirm your identity. As shown in the figure below.
 
@@ -212,12 +212,12 @@ The token is base64 encoded and consists of three parts: header, claims, signatu
 Here is a basic sequence of getting a JWT token:
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture20.png)
 
-We can use some decoding tools to decode the JWT token like online tools  https://jwt.io/  or https://token.dev/. We can also use WebWolf  http://localhost:9090/WebWolf/.
+We can use some decoding tools to decode the JWT token like online tools  https://jwt.io/  or https://token.dev/. We can also use WebWolf  http://localhost:9090/home.
 
 Then we can get the following decoded information:
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture21.png)
 
-Let’s try JWT signing **(A2 JWT tokens subtask 5)**.
+Let’s try JWT signing **(A7 JWT tokens subtask 5)**.
 We can choose the role to vote for here. But there is no admin. 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture22.png)
 Let's try clicking on the trash can button. Only admin user can reset the votes. 
@@ -246,17 +246,14 @@ ___
 ## Part 4 (Optional) Install environment (Locally) 
 
 -   Computer with any operating system (Windows, Linux, MacOS)
--   [webgoat-server-8.2.2.jar](https://github.com/WebGoat/WebGoat/releases/download/v8.2.2/webgoat-server-8.2.2.jar)
--   [webwolf-8.2.2.jar](https://github.com/WebGoat/WebGoat/releases/download/v8.2.2/webwolf-8.2.2.jar)
--   [JAVA 17](https://www.oracle.com/java/technologies/downloads/)
+-   [webgoat-2023.4.jar](https://github.com/WebGoat/WebGoat/releases/download/v2023.4/webgoat-2023.4.jar)
+-   [JAVA 17](https://www.oracle.com/java/technologies/downloads/#java17)
 -   Browser (Recommend using Chrome or FireFox)
 
 
 Run in the terminal (For Windows, use cmd win+R (Not PowerShell)):
-`java -Dfile.encoding=UTF-8 -Dserver.port=8080 -Dserver.address=localhost -Dhsqldb.port=9001 -jar webgoat-server-8.2.2.jar`
+`java -Dfile.encoding=UTF-8 -Dwebgoat.port=8080 -Dwebwolf.port=9090 -jar webgoat-2023.4.jar`
 
-Run in other terminal:
-`java -Dfile.encoding=UTF-8 -Dserver.port=9090 -Dserver.address=localhost -jar webwolf-8.2.2.jar`
 
 Then you will see:
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture2.png)
