@@ -193,6 +193,8 @@ We can guess that these fields are used by the server to determine if they are c
 So we can go back to the Inspector tab and change the name of the field. Just like the one shown in the figure below. 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture18.png)
 Then we submit our form, and we can successfully change our password. Even if we don't know the answer. 
+
+
 ___
 
 
@@ -210,7 +212,16 @@ Still there are companies which will send the password in plaintext to a user in
 
 Let’s first do a simple assignment to make sure you are able to read e-mails with WebWolf, first start WebWolf (see http://localhost:9090/home ) In the reset page below send an e-mail to username@webgoat.org (part behind the @ is not important) Open WebWolf and read the e-mail and login with your username and the password provided in the e-mail. 
 
-![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login_20230710002953.png.png)
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login_20230710002953.png)
+
+
+Send reset email: 
+
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login1_20230710002953.png)
+
+
+
+
 
 
 
