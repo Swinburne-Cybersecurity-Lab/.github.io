@@ -249,6 +249,8 @@ By check the link address:
 http://localhost:8080/WebGoat/PasswordReset/reset/reset-password/2da4e45c-3e8e-49c2-9100-cde42d2a43ba  
 and the request: 
 
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset4_20230710000110.png)
+
 The request created by the “Forgot password” form has a few information that can be tampered with, after some trial and error we can understand that: 
 
 The email must be Tom’s. 
@@ -258,6 +260,20 @@ The referrer header has a host:port part but it is non influent as it can be mod
 The host header can be changed to something else and the link in the email will change accordingly. 
 
 The follow image is a request for a password reset of my account with the host header changed to something else. 
+
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset5_20230710000110.png)
+
+The resulting mail sent to the WebWolf mail client contains the link but this time it is pointing to: 
+
+http://test:8080/WebGoat/PasswordReset/reset/reset-password/22035174-29e4-4d8d-b6c0-47b7b0f34633 
+
+Meaning that the host header is used to create the link inside the mail, now it is possible to use WebWolf Incoming Requests functionality, it is a basic HTTP server that receives and displays incoming requests. 
+
+The Assignment tells us that Tom clicks on any reset link inside the mail as soon as he receives it, so if the link points to WebWolf host (or any an attacker controlled machine) AND it contains a working reset token for Tom’s account, when Tom’s will click on the link then WebWolf will get an incoming request pointing to the wrong host (WebWolf) but containing the correct path for Tom’s password reset.  
+
+Let’s change the Host header with WebWolf socket address 
+
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset6_20230710000110.png)
 
 
 
