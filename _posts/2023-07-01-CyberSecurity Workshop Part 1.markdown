@@ -275,8 +275,16 @@ Let’s change the Host header with WebWolf socket address
 
 ![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset6_20230710000110.png)
 
+Then we can check incoming requests here: 
 
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset7_20230710000110.png)
 
+Change the link socket from WebWolf socket and make it point to WebGoat socket and add /WebGoat as the original link in your own legit password reset email. 
+
+Like: 
+http://localhost:8080/WebGoat/PasswordReset/reset/reset-password/5df17abe-66ca-483f-83f4-fa6e27a1472f 
+
+Change the password to something you like. Sign in as Tom and complete. 
 
 
 ___
