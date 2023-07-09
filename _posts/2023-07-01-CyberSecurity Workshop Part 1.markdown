@@ -195,7 +195,9 @@ So we can go back to the Inspector tab and change the name of the field. Just li
 Then we submit our form, and we can successfully change our password. Even if we don't know the answer. 
 
 
+
 ___
+
 
 
 ##### Password Reset
@@ -217,10 +219,27 @@ Let’s first do a simple assignment to make sure you are able to read e-mails w
 
 Send reset email: 
 
-![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login1_20230710002953.png)
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolflogin1_20230710000110.png)
 
 
+Check email: 
 
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login2_20230710002953.png)
+
+Then, go back to the “Account access” form, fill it with your email and the password from WebWolf mail client. 
+
+As stated before during a password reset often you will find a different message depending on whether an e-mail address exists or not. By itself this might not look like a big deal but it can give an attacker information which can be used in a phishing attack. If the attacker knows you have a registered account at a site, the attacker can for example create a phishing mail and send it to the user. The user might be more tempted to click the e-mail because the user has a valid account at the website. On the other hand for some websites this is not really important but some website users would like some more privacy. 
+
+
+Let’s move to subtask 6. Read the information first. 
+
+Try to reset the password of Tom (tom@webgoat-cloud.org) to your own choice and login as Tom with that password. Note: it is not possible to use OWASP ZAP for this lesson, also browsers might not work, command line tools like curl and the like will be more successful for this attack. 
+
+Please note: Tom always resets his password immediately after receiving the email with the link. 
+
+First click forgot your password. Then request a reset for our password.
+
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset2_20230710000110.png)
 
 
 
