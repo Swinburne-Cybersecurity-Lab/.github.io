@@ -214,7 +214,7 @@ Still there are companies which will send the password in plaintext to a user in
 
 Let’s first do a simple assignment to make sure you are able to read e-mails with WebWolf, first start WebWolf (see http://localhost:9090/home ) In the reset page below send an e-mail to username@webgoat.org (part behind the @ is not important) Open WebWolf and read the e-mail and login with your username and the password provided in the e-mail. 
 
-![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login_20230710002953.png)
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolflogin_20230710000110.png)
 
 
 Send reset email: 
@@ -224,7 +224,7 @@ Send reset email:
 
 Check email: 
 
-![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login2_20230710002953.png)
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolflogin2_20230710000110.png)
 
 Then, go back to the “Account access” form, fill it with your email and the password from WebWolf mail client. 
 
@@ -240,6 +240,25 @@ Please note: Tom always resets his password immediately after receiving the emai
 First click forgot your password. Then request a reset for our password.
 
 ![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset2_20230710000110.png)
+
+In WebWolf mail client we get a new mail with a link to reset our password. 
+
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/webwolfreset3_20230710000110.png)
+
+By check the link address: 
+http://localhost:8080/WebGoat/PasswordReset/reset/reset-password/2da4e45c-3e8e-49c2-9100-cde42d2a43ba  
+and the request: 
+
+The request created by the “Forgot password” form has a few information that can be tampered with, after some trial and error we can understand that: 
+
+The email must be Tom’s. 
+
+The referrer header has a host:port part but it is non influent as it can be modified/removed and the email with the correct link will be received in WebWolf mail client anyway. 
+
+The host header can be changed to something else and the link in the email will change accordingly. 
+
+The follow image is a request for a password reset of my account with the host header changed to something else. 
+
 
 
 
