@@ -193,8 +193,29 @@ We can guess that these fields are used by the server to determine if they are c
 So we can go back to the Inspector tab and change the name of the field. Just like the one shown in the figure below. 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture18.png)
 Then we submit our form, and we can successfully change our password. Even if we don't know the answer. 
+___
+
+
+##### Password Reset
+
+Let’s open A7 Identity & Auth Failure - Password reset 
+
+Each and every one of us will have used the password reset functionality on websites before. Each website implements this functionality in a different manner. On some sites you have to answer some question on other sites an e-mail with an activation link will be sent to you. In this lesson we will go through some of the most common password reset functionalities and show where it can go wrong. 
+
+
+Still there are companies which will send the password in plaintext to a user in an e-mail. For a couple of examples you can take a look at http://plaintextoffenders.com/. Here you will find websites which still send you the plaintext password in an e-mail. Not only this should make you question the security of the site but this also means they store your password in plaintext!  
+
+
+**Email functionality with WebWolf**
+
+Let’s first do a simple assignment to make sure you are able to read e-mails with WebWolf, first start WebWolf (see http://localhost:9090/home ) In the reset page below send an e-mail to username@webgoat.org (part behind the @ is not important) Open WebWolf and read the e-mail and login with your username and the password provided in the e-mail. 
+
+![Image](https://raw.githubusercontent.com/Swinburne-Cybersecurity-Lab/Swinburne-Cybersecurity-Lab.github.io/main/img/login_20230710002953.png.png)
+
+
 
 ___
+
 
 
 ## Part 3 Group Task 
