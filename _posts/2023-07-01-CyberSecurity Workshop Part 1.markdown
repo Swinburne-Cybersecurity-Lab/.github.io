@@ -90,7 +90,7 @@ For us this is a good application to understand cybersecurity. We were able to p
 
 
 ##### Open WebGoat
-Now you can type http://10.0.0.x:8080/WebGoat in your browser. Or open WebGoat via the Favorites tab.
+After launching WebGoat, you can type http://localhost:8080/WebGoat in your browser. Or open WebGoat via the Favorites tab.
 
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture8.png)
 
