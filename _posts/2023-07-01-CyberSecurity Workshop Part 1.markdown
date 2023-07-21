@@ -15,7 +15,7 @@ tags:
 Our lives are closely linked to the world of the internet, mobile computing, and electronic media. Cybersecurity, the protection of systems, networks, and programs, is becoming a critical aspect of our every day lives. In this hands-on workshop you will discover how web-based vulnerabilities work, different types of cyber attacks and the impact they can have.
 
 
-Our Registration Link: https://labs.azure.com/register/esx4mi6l
+<!-- Our Registration Link: https://labs.azure.com/register/esx4mi6l -->
 
 
 ___
