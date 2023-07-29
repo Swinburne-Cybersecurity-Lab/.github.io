@@ -309,7 +309,7 @@ The token is base64 encoded and consists of three parts: header, claims, signatu
 Here is a basic sequence of getting a JWT token:
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture20.png)
 
-We can use some decoding tools to decode the JWT token like online tools  https://jwt.io/  or https://token.dev/. We can also use WebWolf  http://localhost:9090/home.
+We can use some decoding tools to decode the JWT token like online tools https://token.dev/. We can also use WebWolf  http://localhost:9090/home.
 
 Then we can get the following decoded information:
 ![RUNOOB](https://raw.githubusercontent.com/NasTul/COS80013_Lab/main/Picture21.png)
